@@ -4,8 +4,7 @@ import { API_METHODS } from "../constants";
 import { isEmpty, replaceNull } from "../generalFunctions";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "http://localhost:4000/api"; //
-//const API_URL = "https://pflege.webthoughts.in/api";
+const API_URL = "https://assignment-iqd3.onrender.com/api";
 
 let authToken = localStorage.getItem("authToken");
 
